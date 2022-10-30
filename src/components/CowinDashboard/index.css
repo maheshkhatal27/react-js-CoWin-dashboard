@@ -1,0 +1,53 @@
+.covid-dashboard-container {
+  background-color: #161625;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 25px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 138px;
+}
+.logo-icon {
+  height: 45px;
+  width: 45px;
+}
+.logo-name {
+  font-size: 25px;
+  color: #64c2a6;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+.heading {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 138px;
+}
+.vaccine-container {
+  width: 80%;
+  background-color: #1c1c2b;
+  margin: auto;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+.vaccine-heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
